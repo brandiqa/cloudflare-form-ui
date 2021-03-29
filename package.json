@@ -9,12 +9,13 @@
     "serve": "vite preview",
     "format": "prettier --write \"**/*.{jsx,js,css,json,md}\""
   },
-   "author": "Michael Wanyoike <micwanyoike@gmail.com>",
+  "author": "Michael Wanyoike <micwanyoike@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/brandiqa/cloudflare-form-ui"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
