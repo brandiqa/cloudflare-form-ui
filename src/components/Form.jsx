@@ -5,7 +5,7 @@ import Alert from './Alert'
 import './form.css'
 
 async function sendMessage(data) {
-  const url = 'https://contact-form-worker.wallesdevelopers.com'
+  const url = import.meta.env.VITE_FORM_ENDPOINT_URL
 
   const response = await fetch(url, {
     method: 'POST',
