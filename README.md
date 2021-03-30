@@ -10,6 +10,14 @@ Read tutorial on [SitePoint](https://www.sitepoint.com/).
 
 ## Setup, Run and Build
 
+Create the file `.env` and place your form endpoint URL
+
+```env
+VITE_FORM_ENDPOINT_URL=<place your workers application URL here>
+```
+
+Next execute the following commands:
+
 ```bash
 # Install package dependencies
 npm install
