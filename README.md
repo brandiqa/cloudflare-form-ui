@@ -32,6 +32,14 @@ npm build
 npm run serve
 ```
 
+## Deploy
+
+Deploy to [Cloudflare Pages](https://pages.cloudflare.com/) using the following build settings:
+
+- **Build command**: `npm run build`
+- **Build folder**: `dist`
+- **Environment variable**: `VITE_FORM_ENDPOINT_URL=<workers url>`
+
 ## License
 
 SitePoint's code archives and code examples are licensed under the MIT license.
